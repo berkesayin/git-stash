@@ -1,5 +1,7 @@
 # Git Stash 
 
+### Bu repository git stash 
+
 [Git Stash - Berke Sayın - Medium](https://sayinberkesayin.medium.com/git-stash-de%C4%9Fi%C5%9Fiklikleri-kenarda-tutmak-14e447c8af80)
 
 [Git Stash - Atlassian Docs](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
