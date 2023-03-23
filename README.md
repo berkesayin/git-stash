@@ -1,6 +1,6 @@
 # Git Stash 
 
-### Bu repository git stash 
+#### Bu repository git stash konusunu örneklerle uygulamak için oluşturulmuştur. Medium yazı linki ve faydalanılan kaynaklar aşağıdadır:
 
 [Git Stash - Berke Sayın - Medium](https://sayinberkesayin.medium.com/git-stash-de%C4%9Fi%C5%9Fiklikleri-kenarda-tutmak-14e447c8af80)
 
