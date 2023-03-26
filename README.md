@@ -85,11 +85,11 @@ stash@{2}: WIP on master: 4571844 Add menu.
 - Örneğin bu şekilde 3 farklı stash’imiz var, ardından projedeki farklı bir kısımla ilgilendik ve o kısımdaki geliştirmeleri commit’ledik. Daha sonra bir yerde yine stash kullanmaya ihtiyaç duyduk. ``git stash list`` ile stash’lerimizin son haline bakalım:
 
 ```bash
-# git stash list
-stash@{0}: WIP on master: e917757 Add register function
-stash@{1}: WIP on master: 4571844 Add menu.
-stash@{2}: WIP on master: 4571844 Add menu.
-stash@{3}: WIP on master: 4571844 Add menu.
+git stash list
+# stash@{0}: WIP on master: e917757 Add register function
+# stash@{1}: WIP on master: 4571844 Add menu.
+# stash@{2}: WIP on master: 4571844 Add menu.
+# stash@{3}: WIP on master: 4571844 Add menu.
 ```
 
 - Burada yukarıda bahsedilen durum söz konusu. En son oluşturduğumuz stash 0.index değerine sahip ve diğer stash’lerin index değeri 1 ileri kaydırıldı.
