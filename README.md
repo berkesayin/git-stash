@@ -73,10 +73,10 @@ git stash
 - Uygulama geliştirirken peşpeşe 3 kez ``git stash`` kullanarak değişiklikleri 3 ayrı stash şeklinde sakladığımızı varsayalım. Ardından projede farklı alanda geliştirme yapmaya devam ettik ve işimiz bitince stash’leri geri getirmek istiyoruz. İlk olarak kenarda tuttuğumuz değişiklikleri görmek isteriz. Oluşturduğumuz stash’leri ``git stash list`` komutu ile görebiliriz:
 
 ```bash
-# git stash list
-stash@{0}: WIP on master: 4571844 Add menu.
-stash@{1}: WIP on master: 4571844 Add menu.
-stash@{2}: WIP on master: 4571844 Add menu.
+git stash list
+# stash@{0}: WIP on master: 4571844 Add menu.
+# stash@{1}: WIP on master: 4571844 Add menu.
+# stash@{2}: WIP on master: 4571844 Add menu.
 ```
 ##### Burada dikkat edilmesi gereken durum:
 
@@ -112,12 +112,12 @@ git stash save “Add contact form to our site.”
 - ``git stash list`` ile stash’leri görelim:  
 
 ```bash
-# git stash list
-stash@{0}: On master: Add contact form to our site.
-stash@{1}: WIP on master: e917757 Add register function
-stash@{2}: WIP on master: 4571844 Add menu.
-stash@{3}: WIP on master: 4571844 Add menu.
-stash@{4}: WIP on master: 4571844 Add menu.
+git stash list
+# stash@{0}: On master: Add contact form to our site.
+# stash@{1}: WIP on master: e917757 Add register function
+# stash@{2}: WIP on master: 4571844 Add menu.
+# stash@{3}: WIP on master: 4571844 Add menu.
+# stash@{4}: WIP on master: 4571844 Add menu.
 ```
 
 - Burada gözüktüğü gibi stash message’ı ile oluşturduğumuz stash’i ne için oluşturduğumuzu daha rahat bir şekilde hatırlayabiliriz.
